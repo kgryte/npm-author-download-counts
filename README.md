@@ -158,8 +158,7 @@ Options:
 
 ### Notes
 
-*	If the output format is [`csv`][csv],
-	-	if unable to resolve the download counts, the process will write an `error` message to `stderr` and will __not__ generate [CSV][csv] output.
+*	If the output format is [`csv`][csv] and the process is unable to resolve counts, the process will write an `error` message to `stderr` and will __not__ generate [CSV][csv] output.
 
 
 ### Examples
